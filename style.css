@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.grid {
+  margin: 2rem;
+  border: 1px solid;
+  height: 360px;
+  width: 362px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+  height: 40px;
+  width: 40px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: green;
+}
+
+.l1, .l2, .l3 {
+  background-color: brown;
+}
+
+.l4, .l5 {
+  background-color: aqua;
+}
+
+.c1 {
+  background-color: black;
+}
+
+.c2, .c3 {
+  background-color: gray;
+}
+
+.frog {
+  background-color: lightgreen;
+}/*# sourceMappingURL=style.css.map */
